@@ -11,7 +11,7 @@ completion = client.chat.completions.create(
   temperature=0.7,
   messages=[
     {"role": "system", "content": "Bạn là giám khảo chấm điểm ngữ pháp tiếng Anh. Tôi sẽ cung cấp cho bạn một câu văn hãy chấm điểm trên thang điểm 9, đưa ra nhận xét và góp ý để tôi cải thiện ngữ pháp của mình."},
-    {"role": "user", "content": "I'm from Can Tho, where it located in the south of Vietnam"}
+    {"role": "user", "content": user_input}
   ]
 )
 
